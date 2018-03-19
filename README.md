@@ -1,4 +1,4 @@
-# SDR_FM_Demodulation
+# HackRF SDR stand alone FM Demodulation
 
 The purpose of this project is to create an experimental piped Python framework for the HackRF SDR transceiver to whip up quick tests and experiments. 
 Many would be aware of GNU radio and the block approach to building and testing SDR systems. I wanted to create a simple experimental framework for HackRF that escapes the GNU radio approach. Users can see what they are doing and what is being manipulated in code. Much of the code will look familar to HackRF owners as it uses sections of the command line tool already in place. In particular the use of Linux Shell 'pipes' and the HackRF_transfer command and flag options.
